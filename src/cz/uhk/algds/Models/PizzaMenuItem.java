@@ -35,4 +35,9 @@ public class PizzaMenuItem {
         this.price = price;
     }
 
+    @Override
+    public String toString(){
+        return name + " - " + description + " - " + price + " Kč";
+    }
+
 }
